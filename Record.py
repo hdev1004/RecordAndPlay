@@ -45,7 +45,7 @@ def on_press(key):
 
     if isRecord == True:
         try:
-            #1. 키가 계속 눌려져 있을경우 처리
+            #1. 키가 계속 눌려져 있을경우 처리 (처리 할필요 없음)
             cur_key_code = key
 
             #2. Ctrl 조합키를 고려
@@ -55,7 +55,7 @@ def on_press(key):
                 cur_key_code = "hangul"
 
             recoding[recoding_number] = {
-                "key":  str(cur_key_code) if type(cur_key_code) is Key else cur_key_code.char,
+                "key":  str(cur_key_code) if type(cur_key_code) is Key else cur_key_code.char.lower(),
                 "time": time.time(),
                 "type": "press"
             }
@@ -84,7 +84,7 @@ def on_release(key):
             cur_key_code = ctrl_mapping[key]
 
         recoding[recoding_number] = {
-            "key":  str(cur_key_code) if type(cur_key_code) is Key else cur_key_code.char,
+            "key":  str(cur_key_code) if type(cur_key_code) is Key else cur_key_code.char.lower(),
             "time": time.time(),
             "type": "release"
         }
