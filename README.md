@@ -51,4 +51,4 @@ git clone https://github.com/hdev1004/RecordAndPlay.git
 
 ## Blog
 
-https://hdev1004.tistory.com/6
+[블로그 - 발빠진 개발자](https://hdev1004.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-%ED%82%A4%EB%B3%B4%EB%93%9C-%EB%85%B9%ED%99%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%EC%9D%84-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%90)
